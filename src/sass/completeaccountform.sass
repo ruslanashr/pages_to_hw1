@@ -5,27 +5,27 @@ label
     color: #222428
     a
         color: #002396
-.signIn__checkboxes
+.form__checkboxes
     display: flex
     margin-top: 16px   
 .checkboxes__first
     margin-top: 33px
 .checkboxes__second
     margin-bottom: 34px
-.signIn__check
+.form__check
     margin-right: 13px
     position: absolute
     opacity: 0
     cursor: pointer
     height: 0
     width: 0
-.signIn__check:checked ~ .checkmark
+.form__check:checked ~ .checkmark
     background: rgba(245, 247, 250, 0.5)
 .checkmark:after
     content: ''
     position: absolute
     display: none
-.signIn__check:checked ~ .checkmark:after
+.form__check:checked ~ .checkmark:after
     display: block
 .checkmark
     position: absolute
@@ -49,6 +49,7 @@ label
     display: none
     margin-top: 8px
     margin-bottom: 22px
+
 .checkboxes
     display: block
     position: relative
@@ -57,7 +58,7 @@ label
     font-size: 14px
     user-select: none
     line-height: 28px
-.signIn__password
+.form__password
     margin-bottom: 20px
 .result
     width: 140px
@@ -65,3 +66,9 @@ label
     background: #EBEFF3
     border-radius: 2px
     margin-right: 5px
+.color-red
+    background-color: #FF6359
+.color-orange
+    background-color: #FFB966
+.color-green
+    background-color: #38ECAC
