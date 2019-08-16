@@ -12,6 +12,8 @@ module.exports = {
     completeyouraccount : './src/app/completeyouraccount.js',
     personalInfo : './src/app/personalInfo.js',
     personalInfowork : './src/app/personalInfowork.js',
+    search: './src/app/search.js',
+    searchwork: './src/app/searchwork.js'
   },
   output: {
     filename: '[name].js',
@@ -91,6 +93,11 @@ module.exports = {
       filename: 'personalInfo.html',
       chunks: ['personalInfo', 'personalInfowork'],
       template: './src/templates/personalInfo.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'search.html',
+      chunks: ['search', 'searchwork'],
+      template: './src/templates/search.html'
     })
   ]
 };
