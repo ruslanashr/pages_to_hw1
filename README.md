@@ -10,3 +10,5 @@
 5) <a href="https://ruslanashr.github.io/pages_to_hw1/emailSend.html">Email Send</a>
 
 6) <a href="https://ruslanashr.github.io/pages_to_hw1/completeaccount">Complete account</a>
+
+7) <a href="https://ruslanashr.github.io/pages_to_hw1/personalInfo">Personal info</a>
